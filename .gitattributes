@@ -1,0 +1,68 @@
+# Laravel storage
+/storage/*.key
+/storage/*.pem
+/storage/*.pub
+
+# Laravel environment
+.env
+.env.*
+.env.php
+.env.homestead
+.env.local
+.env.testing
+.env.dusk.local
+
+# Laravel vendor
+/vendor/
+/node_modules/
+
+# Laravel bootstrap
+/bootstrap/cache/
+
+# Laravel mix
+/public/mix-manifest.json
+/public/css/
+/public/js/
+/public/hot/
+
+# Laravel public uploads
+/public/uploads/
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+Homestead.lock
+
+# Laravel testing
+/phpunit.xml
+/tests/
+
+# Laravel IDE helper
+.phpstorm.meta.php
+
+# Laravel Valet
+.valet/
+
+# Laravel Homestead
+.vagrant/
+
+# Laravel Forge
+/.forge/
+
+# Laravel Artisan commands
+/artisan
+
+# Laravel Compiled Views
+.phpunit.result.cache
+
+# Laravel Passport
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Laravel Dusk
+/chrome-driver/
+
+# Laravel Telescope
+/storage/*.log
+/storage/debugbar/
+/telescope/
